@@ -3,20 +3,22 @@
       <title> Aula 05 </title>
   </head>
   <body>
-        <h1> Formulário com método GET </h1>
-        <form>
-              Login: <input type="text">
-          <br>
-              Senha: <input type="password">
-          <br>
-             Entrar: <input type="button" value= "ENTRAR">
+        <h2> Formulário com método GET </h2>
+        <form action= "/page.php" method="GET">>
+              Login: <input type="text" id= "login" name= "login">
+            <br><br>
+             Senha: <input type="password" id= "senha" name= "senha">
+            <br><br>
+            <input type="button" value= "ENTRAR">
+            </form>
                 
-    <h1> Formulário com método POST </h1>
-              Login: <input type="text">
-          <br>
-              Senha: <input type= "password">
-          <br>
-            Entrar: <input type="button" value= "ENTRAR">
+        <h2> Formulário com método POST </h2>
+       <form action= "/page.php" method="POST">
+          Login: <input type="text" id= "login" name= "login">
+            <br><br>
+             Senha: <input type="password" id= "senha" name= "senha">
+            <br><br>
+            <input type="button" value= "ENTRAR">
         </form>
   </body>
 </html>
